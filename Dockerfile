@@ -1,5 +1,5 @@
-FROM amazoncorretto:17-alpine-jdk
+FROM amazoncorretto:17
 MAINTAINER David
-COPY target/david-0.0.1-SNAPSHOT.jar david-app.jar
-ENTRYPOINT ["java","-jar","/david-app.jar"]
+COPY target/david-0.0.1-SNAPSHOT.jar david-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/david-0.0.1-SNAPSHOT.jar"]
 EXPOSE 8080
