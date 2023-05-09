@@ -4,7 +4,6 @@ import com.portfolio.david.Entity.Persona;
 import com.portfolio.david.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
+//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://frontendportfolio-47e0e.web.app")
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
@@ -57,6 +57,6 @@ public class PersonaController {
     
     @GetMapping("/personas/traer/perfil")
     public Persona findPersona(){
-        return ipersonaService.findPersona((long)1);
+        return ipersonaService.findPersona((long)8);
     }
 }
