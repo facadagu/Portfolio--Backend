@@ -1,5 +1,6 @@
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Security\Dto\NuevoUsuario.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Security\Entity\Rol.java
+C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Dto\dtoPersona.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Security\Enums\RolNombre.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Service\Seducacion.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Controller\CExperiencia.java
@@ -35,5 +36,4 @@ C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_Guz
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Dto\dtoExperiencia.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Security\Service\RolService.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Repository\REducacion.java
-C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Interface\IPersonaService.java
 C:\Users\Usuario\Desktop\Argentina Programa\ProyectoFinal\ProyectoIntegrador_GuzmanFabricio\Portfolio--Backend\src\main\java\com\portfolio\david\Security\Repository\iRolRepository.java

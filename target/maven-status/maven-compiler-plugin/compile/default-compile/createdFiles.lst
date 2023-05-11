@@ -2,12 +2,12 @@ com\portfolio\david\Dto\dtoEducacion.class
 com\portfolio\david\Security\Dto\LoginUsuario.class
 com\portfolio\david\Security\jwt\JwtProvider.class
 com\portfolio\david\Security\Service\UserDetailsImpl.class
+com\portfolio\david\Dto\dtoPersona.class
 com\portfolio\david\Repository\IPersonaRepository.class
 com\portfolio\david\Security\Entity\Rol.class
 com\portfolio\david\Service\ImpPersonaService.class
 com\portfolio\david\Dto\dtoExperiencia.class
 com\portfolio\david\Entity\Experiencia.class
-com\portfolio\david\Interface\IPersonaService.class
 com\portfolio\david\Security\Controller\Mensaje.class
 com\portfolio\david\Security\Dto\NuevoUsuario.class
 com\portfolio\david\Security\Controller\AuthController.class
