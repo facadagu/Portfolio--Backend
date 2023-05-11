@@ -41,31 +41,6 @@ public class PersonaController {
         return new ResponseEntity(persona, HttpStatus.OK);
     }
     
-    /*@DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> delete(@PathVariable("id") int id){
-        if(!sEducacion.existsById(id)){
-            return new ResponseEntity(new Mensaje("No existe el id"), HttpStatus.NOT_FOUND);
-        }
-        sEducacion.delete(id);
-        return new ResponseEntity(new Mensaje("Educacion eliminada"), HttpStatus.OK);
-    }*/
-    
-    /*@PostMapping("/create")
-    public ResponseEntity<?> create(@RequestBody dtoEducacion dtoeducacion){
-        if(StringUtils.isBlank(dtoeducacion.getNombreE())){
-            return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
-        }
-        if(sEducacion.existsByNombreE(dtoeducacion.getNombreE())){
-            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
-        }
-        
-        Educacion educacion = new Educacion(
-                dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE()
-            );
-        sEducacion.save(educacion);
-        return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
-    }*/
-    
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
         if(!personaService.existsById(id)){
