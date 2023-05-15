@@ -16,16 +16,22 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
+    private String fechainicioE;
+    private String fechafinE;
     
     //Constructores 
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE) {
+    public Experiencia(String nombreE, String descripcionE, String fechainicioE, String fechafinE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
+        this.fechainicioE = fechainicioE;
+        this.fechafinE = fechafinE;
     }
+
+    
     
     //Getters y Setters
 
@@ -52,5 +58,23 @@ public class Experiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
+    public String getFechainicioE() {
+        return fechainicioE;
+    }
+
+    public void setFechainicioE(String fechainicioE) {
+        this.fechainicioE = fechainicioE;
+    }
+
+    public String getFechafinE() {
+        return fechafinE;
+    }
+
+    public void setFechafinE(String fechafinE) {
+        this.fechafinE = fechafinE;
+    }
+
+   
     
 }

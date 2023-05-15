@@ -15,7 +15,6 @@ com\portfolio\david\Security\Dto\JwtDto.class
 com\portfolio\david\Controller\CHys.class
 com\portfolio\david\Security\Enums\RolNombre.class
 com\portfolio\david\Security\Service\UsuarioService.class
-.netbeans_automatic_build
 com\portfolio\david\Service\SExperiencia.class
 com\portfolio\david\Entity\Persona.class
 com\portfolio\david\Security\MainSecurity.class
